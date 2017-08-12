@@ -1,0 +1,8 @@
+Destination.create([
+  {name: 'Rio de Janeiro', description: 'As belezas naturais do Rio de Janeiro já são conhecidas por todos, mas basta uma visita à cidade maravilhosa para comprovar que há muito para se encantar.'},
+  {name: 'Fortaleza', description: 'Fortaleza é destino ideal de quem busca sol, calor e tranquilidade. A capital do Ceará mistura a rotina agitada de grande metrópole a costumes típicos de uma região que vive em harmonia com o mar. A cidade é rodeada por pequenos municípios e vilas de pescadores responsáveis por oferecer inúmeras opções de passeio fora das areias, como atrações culturais, compras e gastronomia.'},
+  {name: 'Maceió', description: 'Dona da orla urbana mais bonita do Nordeste, Maceió, capital de Alagoas, impressiona com o mar cristalino que assume tons verdes e azuis conforme a maré, além dos coqueirais e das piscinas naturais, formadas a partir de uma enorme barreira de corais.'},
+  {name: 'Natal', description: 'Com o sol brilhando praticamente o ano todo, Natal é a escolha perfeita para as férias. A cidade foi abençoada com natureza exuberante, com suas praias, lagoas e dunas, além de prédios históricos e cartões-postais conhecidos no país inteiro como o Morro do Careca e o Forte dos Reis Magos.'},
+  {name: 'Pantanal', description: 'O Centro-Oeste do Brasil abriga uma das maiores planícies alagadas do mundo, com 150 mil quilômetros quadrados de área: o Pantanal. A região compreende as cidades de Poconé, Cáceres, Barão de Melgaço (todas no Pantanal Norte), Aquidauana, Miranda, Corumbá e Porto Murtinho (estas, no Pantanal Sul). '}
+
+  ])

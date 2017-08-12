@@ -1,0 +1,16 @@
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <%=link_to 'Vote no Destino', root_path, class: "brand-logo center"%>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <%unless session[:user].blank?%>
+          <li><%=link_to 'Meus Destinos', user_path(session[:user]["id"])%></li>
+        <%end%>
+        <li><%=link_to "Destinos mais votados", votes_path%></li>      
+      </ul>
+    </div>
+    <%=render 'shared/preloader'%>
+  </nav>
+</div>
+
+

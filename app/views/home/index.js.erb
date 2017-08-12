@@ -1,0 +1,7 @@
+$('#destinations').html('<%= j render "index"%>')
+Materialize.showStaggeredList('#destinations');
+$(document).ajaxStart(function(){
+  $('.preloader-wrapper').addClass('active');
+}).ajaxStop(function(){
+  $('.preloader-wrapper').removeClass('active');
+});

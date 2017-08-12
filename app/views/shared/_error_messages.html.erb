@@ -1,0 +1,16 @@
+<% if object.errors.full_messages.any? %>
+  <div class="card-panel red lighten-3 error_explanation">
+    <div class="card-content">
+      <h2><span class="card-title activator grey-text text-darken-4">Existe<%=(object.errors.count > 1 ? 'm': '')%> <%= pluralize(object.errors.count, 'erro', 'erros') %>  abaixo para <%=(object.errors.count > 1 ? "serem corrigidos": "corrigir")%> </span></h2>
+      <span>  
+        <ul class="browser-default">
+          <% object.errors.full_messages.each do |error_message| %>
+          <li>
+            <%= error_message %> 
+          </li>
+          <% end %>
+        </ul>
+      </span>
+    </div>
+  </div>
+<% end %> 

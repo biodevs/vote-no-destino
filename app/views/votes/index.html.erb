@@ -1,0 +1,12 @@
+<div class="col s12">
+    <div class="card-panel">
+      <div class="card-content">
+        <div class="card-title">
+          <strong>Destinos mais votados</strong>
+        </div>
+      </div>
+    </div>
+  <% @votes.each do |id, total|%>
+    <%=destiny(id, total)%>
+  <%end%>
+</div>

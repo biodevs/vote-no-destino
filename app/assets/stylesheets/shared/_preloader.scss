@@ -1,0 +1,12 @@
+nav {
+    .preloader {
+        display: none;
+        top: -6.5px;
+        .progress {
+            background-color: #9fbdf9;
+        }
+        .indeterminate {
+            background-color: #3d7bf7;
+        }
+    }
+}
