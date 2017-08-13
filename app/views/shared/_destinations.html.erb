@@ -3,7 +3,7 @@
       <div class="col s6 m6">
         <div class="card">
           <div class="card-image z-depth-2">
-            <%=image_tag("#{destination.name.parameterize.underscore}.jpg")%>
+            <img src="<%=image_url("#{destination.name.parameterize.underscore}.jpg")%>"alt="<%=destination.name%>">
             <span class="card-title"><%=destination.name%></span>
           </div>
           <div class="card-content">
