@@ -1,5 +1,5 @@
 # VOTE NO DESTINO
-[ ![Codeship Status for marcio-soares/vote-no-destino](https://app.codeship.com/projects/e74f54d0-61dc-0135-d48c-76c7a8899292/status?branch=master)](https://app.codeship.com/projects/239713)
+[ ![Codeship Status for marcio-soares/vote-no-destino](https://app.codeship.com/projects/f89e72a0-61e6-0135-d48c-76c7a8899292/status?branch=master)](https://app.codeship.com/projects/239717)
 
 Essa é uma simples aplicação de escolha de destinos no Brasil, com apenas 5 destinos no banco de dados.
 
@@ -22,4 +22,4 @@ Com o docker instalado abra um terminal e execute o seguinte comando:
   * docker-compose up
 ````
 Agora acesse seu navegador no endereço: 
-```` http://localhost:3000 ```` ou acesse a aplicação no [Heroku](http://vote-no-destino.heroku.com)
+```` http://localhost:3000 ```` ou acesse a aplicação no [Heroku](http://vote-at-destiny.heroku.com)
