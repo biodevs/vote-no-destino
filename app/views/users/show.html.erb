@@ -1,12 +1,14 @@
-<div class="col s12">
-    <div class="card-panel">
-      <div class="card-content">
-        <div class="card-title">
-          <strong>Destinos escolhidos por <%=@user.name%></strong>
+<div class="row">
+  <div class="col s8 offset-s2">
+      <div class="card-panel">
+        <div class="card-content">
+          <div class="card-title">
+            Destinos escolhidos por <strong><%=@user.name%></strong>
+          </div>
         </div>
       </div>
-    </div>
-    <% @user.votes.ranking.each do |id, total|%>
-      <%=destiny(id, total)%>
-    <%end%>
+      <% @user.votes.ranking.each do |id, total|%>
+        <%=destiny(id, total)%>
+      <%end%>
+  </div>
 </div>

@@ -6,7 +6,7 @@ module VotesHelper
         image_tag("#{destination.name.parameterize.underscore}.jpg", class: 'circle') <<
         content_tag(:h5, destination.name) <<
         content_tag(:p, truncate(destination.description, length: 100)) <<
-        content_tag(:a, content_tag(:span, pluralize(total, 'voto', 'votos'), class: 'badge'),  href: '#!', class: 'secondary-content') 
+        content_tag(:a, content_tag(:span, pluralize(total, 'voto', 'votos'), class: 'badge strong'),  href: '#!', class: 'secondary-content') 
       end
     end
   end
