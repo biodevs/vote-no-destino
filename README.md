@@ -1,5 +1,4 @@
 # VOTE NO DESTINO
-[ ![Codeship Status for marcio-soares/vote-no-destino](https://app.codeship.com/projects/f89e72a0-61e6-0135-d48c-76c7a8899292/status?branch=master)](https://app.codeship.com/projects/239717)
 
 Essa é uma simples aplicação de escolha de destinos no Brasil, com apenas 5 destinos no banco de dados.
 
