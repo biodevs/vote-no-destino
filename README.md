@@ -21,4 +21,4 @@ Com o docker instalado abra um terminal e execute o seguinte comando:
   * docker-compose up
 ````
 Agora acesse seu navegador no endereço: 
-```` http://localhost:3000 ```` ou acesse a aplicação no [Heroku](http://vote-at-destiny.heroku.com)
+```` http://localhost:3000 ```` ou acesse a aplicação no [Heroku](https://vote-at-destiny.herokuapp.com/)
