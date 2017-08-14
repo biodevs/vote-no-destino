@@ -4,5 +4,4 @@ Destination.create([
   {name: 'Maceió', description: 'Dona da orla urbana mais bonita do Nordeste, Maceió, capital de Alagoas, impressiona com o mar cristalino que assume tons verdes e azuis conforme a maré, além dos coqueirais e das piscinas naturais, formadas a partir de uma enorme barreira de corais.'},
   {name: 'Natal', description: 'Com o sol brilhando praticamente o ano todo, Natal é a escolha perfeita para as férias. A cidade foi abençoada com natureza exuberante, com suas praias, lagoas e dunas, além de prédios históricos e cartões-postais conhecidos no país inteiro como o Morro do Careca e o Forte dos Reis Magos.'},
   {name: 'Pantanal', description: 'O Centro-Oeste do Brasil abriga uma das maiores planícies alagadas do mundo, com 150 mil quilômetros quadrados de área: o Pantanal. A região compreende as cidades de Poconé, Cáceres, Barão de Melgaço (todas no Pantanal Norte), Aquidauana, Miranda, Corumbá e Porto Murtinho (estas, no Pantanal Sul). '}
-
   ])

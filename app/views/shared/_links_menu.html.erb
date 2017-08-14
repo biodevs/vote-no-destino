@@ -1,0 +1,12 @@
+<%unless session[:user].blank?%>
+  <li>
+    <%=link_to user_path(session[:user]["id"]) do%>
+      Meus Destinos
+    <%end%>
+  </li>
+<%end%>
+<li>
+  <%=link_to votes_path do%>
+    Destinos mais votados
+  <%end%>
+</li>

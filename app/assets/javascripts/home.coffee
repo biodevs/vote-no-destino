@@ -1,7 +1,7 @@
 $(document).on 'turbolinks:load', ->
   Materialize.updateTextFields()
+  $(".button-collapse").sideNav();
   Materialize.showStaggeredList('#destinations')
-  $('a.btn-vote').on "click", (event) ->
   $(document).ajaxStart () ->
     $('.preloader').show()
   $(document).ajaxStop () ->

@@ -1,6 +1,7 @@
+<div class="row">
   <%unless @destinations.blank?%>
     <%@destinations.each{|destination|%>
-      <div class="col s6 m6">
+      <div class="col s12 m6 l6">
         <div class="card">
           <div class="card-image z-depth-2">
             <img src="<%=image_url("#{destination.name.parameterize.underscore}.jpg")%>"alt="<%=destination.name%>">
@@ -21,3 +22,4 @@
   <%unless session[:destinations].blank?%>
     <%=render 'users/form'%>
   <%end%>
+</div>
