@@ -4,7 +4,7 @@
         <div class="card-content">
           <div class="card-title">
             Destinos mais votados
-            <span class="right">total: <span class="badge strong"><%=@votes.values.sum%> votos</span></span>
+            <span class="right">total: <span class="badge strong"><%=pluralize(@votes.values.sum, 'voto', 'votos')%></span></span>
           </div>
         </div>
       </div>
